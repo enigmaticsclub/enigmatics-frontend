@@ -1,0 +1,51 @@
+.app__navbar {
+    font-family: "Nanoum Gothic Coding", monospace;
+    background-color: #fff;
+    border-bottom: 1px solid #e6e6e6;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .app__navbar-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+
+        img {
+            height: 40px;
+            width: 40px;
+            margin-left: 1.5em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            font-weight: 900;
+            color: #f57f20;
+
+            span {
+                color: #000;
+            }
+        }
+    }
+
+    .app__navbar-menu {
+        display: inline-block;
+        margin-right: 1.5rem;
+
+        li {
+            display: flex;
+            list-style: none;
+        }
+    }
+}
